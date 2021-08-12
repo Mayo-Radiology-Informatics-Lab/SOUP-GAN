@@ -16,15 +16,15 @@ This inference code supports:
 
 Install the package [KevinSR](https://pypi.org/project/KevinSR/). 
 
-from KevinSR import mask_interpolation, SOUP_GAN
+>`from KevinSR import mask_interpolation, SOUP_GAN`
 
-\# for SR image interp 
+>`# for SR image interp `
 
-thin_slices = SOUP_GAN(thick_slices, factor)
+>`thin_slices = SOUP_GAN(thick_slices, factor)`
 
-\# for mask interp 
+>`# for mask interp` 
 
-new_masks = mask_interpolation(masks, factor)
+>`new_masks = mask_interpolation(masks, factor)`
 
 
 #### Example:
