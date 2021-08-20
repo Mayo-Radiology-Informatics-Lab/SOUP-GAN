@@ -4,7 +4,7 @@ Super-resolution interpolation tool for medical images.
 
 This inference code supports: 
 
-1) Thick-slices to thin-slices SR interpolation with arbitrarily user-selected sampling ratios. 
+1) Thick-slices to thin-slices SR interpolation with arbitrarily user-selected sampling ratios (e.g., from 2x to 6x). 
 2) Medical imaging mask inerpolation.
 
 #
