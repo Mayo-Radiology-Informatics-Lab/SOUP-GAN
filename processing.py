@@ -51,7 +51,7 @@ def imgshow(img,cmap ='gray'):
     plt.yticks([])
     return
 
-def plot_scans(thins_raw, thins, thins_gen):
+def plot_scans(thins_raw, thins, thins_gen,prep_type):
 
     plt.figure(figsize=(10, 10))
     plt.subplot(2, 3, 1)
@@ -91,7 +91,7 @@ def plot_scans(thins_raw, thins, thins_gen):
     plt.axis('off')
 
     plt.show()
-    plt.savefig('Example_1.png')
+    plt.savefig('Example_'+str(prep_type)+'.png')
 
 
 

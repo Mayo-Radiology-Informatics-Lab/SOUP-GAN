@@ -6,10 +6,10 @@ from processing import load_data, rescale_img, plot_scans
 
 from KevinSR import SOUP_GAN
 
-#Example of thin-to-thin type of data
-DIR_dicom = "./Sag_T1_EX_1" 
-pre_slices = 32
-post_slices = 160
+#Example of thick-to-thin type of preprocessing
+DIR_dicom = "./Sag_T1_EX_0" 
+pre_slices = 27
+post_slices = 135
 
 
 thicks_ori = load_data(DIR_dicom)
@@ -21,9 +21,9 @@ thins = zoom(thicks_ori, (1,1,Z_FAC))
 thins_raw = zoom(thicks_ori, (1,1,Z_FAC),order=0)
 
 # Call the SR interpolation tool from KevinSR
-thins_gen = SOUP_GAN(thicks_ori, Z_FAC,1)
+thins_gen = SOUP_GAN(thicks_ori, Z_FAC, 0)
 
 # Plot the original thick slices, thin slices by TCI and SR generated slices. 
-plot_scans(thins_raw, thins, thins_gen,1)
+plot_scans(thins_raw, thins, thins_gen, 0)
 
 

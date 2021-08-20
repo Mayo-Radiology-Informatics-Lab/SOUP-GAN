@@ -18,9 +18,9 @@ Install the package [KevinSR](https://pypi.org/project/KevinSR/).
 
 >`from KevinSR import mask_interpolation, SOUP_GAN`
 
->`# for SR image interp `
+>`# for SR image interp (prep_type=0: thick-to-thin; 1: thin-to-thin)`
 
->`thin_slices = SOUP_GAN(thick_slices, factor)`
+>`thin_slices = SOUP_GAN(thick_slices, factor, prep_type)`
 
 >`# for mask interp` 
 
@@ -28,6 +28,15 @@ Install the package [KevinSR](https://pypi.org/project/KevinSR/).
 
 
 #### Example:
+Example_0 (thick_to_thin):
+
+<img src="Example_0.png" width="600" height="600" align="middle"/>
+
+Example_1 (thin_to_thin):
+
 <img src="Example_1.png" width="600" height="600" align="middle"/>
 
+Mask_interpolation:
+
 <img src="mask_interp.png" width="600" align="middle"/>
+
