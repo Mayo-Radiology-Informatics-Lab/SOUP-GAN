@@ -30,9 +30,10 @@ Install the package [KevinSR](https://pypi.org/project/KevinSR/).
 #### Example:
 Example_0 (thick_to_thin):
 
-<img src="Example_0.png" width="600" height="600" align="middle"/>
+<img src="Example_0.png" width="600" align="middle"/>
+<img src="knee.png" width="550" height ="400" align="middle"/>
 
-Example_1 (thin_to_thin):
+Example_1 (sparse_to_thin):
 
 <img src="Example_1.png" width="600" height="600" align="middle"/>
 
