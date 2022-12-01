@@ -8,7 +8,7 @@ This inference code supports:
 2) Medical imaging mask inerpolation.
 
 #
-[SOUP-GAN: Super-Resolution MRI Using Generative Adversarial Networks](https://arxiv.org/abs/2106.02599)
+[SOUP-GAN: Super-Resolution MRI Using Generative Adversarial Networks. Tomography 2022, 8(2), 905-919](https://www.mdpi.com/2379-139X/8/2/73)
 
 [Kuan Zhang](https://www.mayo.edu/research/labs/radiology-informatics/faculty-staff), Haoji Hu, [Kenneth Philbrick](https://www.linkedin.com/in/kenneth-philbrick-1b164bb), [Gian Marco Conte](https://www.mayo.edu/research/labs/radiology-informatics/faculty-staff), [Joseph D. Sobek](https://www.mayo.edu/research/labs/radiology-informatics/faculty-staff), [Pouria Rouzrokh](https://www.mayo.edu/research/labs/radiology-informatics/faculty-staff), [Bradley J. Erickson](https://www.mayo.edu/research/faculty/erickson-bradley-j-m-d-ph-d/bio-00077505)
 #
